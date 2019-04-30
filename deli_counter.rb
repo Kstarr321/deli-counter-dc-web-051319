@@ -3,7 +3,7 @@ def line(arr)
     puts "The line is currently empty."
   else 
     arr.each_index do |idx|
-      "Hello #{arr[idx]}, you are number #{idx+1} in line."
+      "The line is currently #{idx+1}. #{arr[idx]}"
     end
   end
 end 
