@@ -18,9 +18,13 @@ def take_a_number(line, person)
 end
 
 def now_serving(arr)
-  arr.each do |customer|
-    
-  
-  
-
+  if arr.length >= 1
+    loop do 
+    x = arr.shift 
+    puts "Now serving #{x}"
+    arr
+    break if arr.length == 0
+    end
+  puts "There is nobody waiting to be served!"
+  end
 end
