@@ -12,7 +12,9 @@ def line(array) # this was the one I figured out
   end
 end
 
-def take_a_number 
+def take_a_number(line, person)
+  new_line = line.push(person)
+  
   
   
   
