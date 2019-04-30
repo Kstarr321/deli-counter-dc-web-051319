@@ -11,3 +11,9 @@ def line(array) # this was the one I figured out
     puts "The line is currently empty."
   end
 end
+
+def take_a_number 
+  
+  
+  
+end 
