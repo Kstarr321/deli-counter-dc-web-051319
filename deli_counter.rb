@@ -19,12 +19,10 @@ end
 
 def now_serving(arr)
   if arr.length >= 1
-    loop do 
     x = arr.shift 
     puts "Now serving #{x}"
     arr
-    break if arr.length == 0
-    end
-  puts "There is nobody waiting to be served!"
+  else 
+    puts "There is nobody waiting to be served!"
   end
 end
