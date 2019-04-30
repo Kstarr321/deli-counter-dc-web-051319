@@ -15,7 +15,12 @@ end
 def take_a_number(line, person)
   new_line = line.push(person)
   puts "Welcome, #{person}. You are number #{new_line.index(person)+1} in line."
+end
+
+def now_serving(arr)
+  arr.each do |customer|
+    
   
   
-  
+
 end
