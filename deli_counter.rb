@@ -2,10 +2,6 @@ def line(arr)
   if arr == [ ]
     puts "The line is currently empty."
   else 
-    new_line = []
-    arr.each_index do |idx|
-      new_line << "#{idx+1}. #{arr[idx]}"
-      puts "The line is currently #{new_line}"
-    end
-  end
+  puts "The line is currently 1. #{arr[0]} 2. #{arr[1]} 3. #{arr[2]}"
+  end 
 end 
