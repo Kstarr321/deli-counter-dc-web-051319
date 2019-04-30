@@ -5,7 +5,7 @@ def line(arr)
     new_line = []
     arr.each_index do |idx|
       new_line << "#{idx+1}. #{arr[idx]}"
+      puts "The line is currently #{new_line}"
     end
   end
-  puts "The line is currently #{new_line}"
 end 
