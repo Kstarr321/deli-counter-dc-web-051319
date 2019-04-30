@@ -1,12 +1,13 @@
-def line(arr)
-  if arr == [ ]
-    puts "The line is currently empty."
+def line(array) # this was the one I figured out
+  if array.length >= 1
+    nuarray = []
+    counter = 1 
+    array.each do |name|
+      nuarray.push("#{counter}. #{name}")
+      counter += 1 
+    end 
+    puts "The line is currently: #{nuarray.join(" ")}"
   else
-    puts "The line is currently: "
-    arr.each_index do |idx|
-      x = "#{idx+1}. #{arr[idx]}"
-      puts x
-
-    end
+    puts "The line is currently empty."
   end
 end
